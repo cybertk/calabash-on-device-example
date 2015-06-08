@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9295C9661B255E2400C388EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C9651B255E2400C388EB /* AppDelegate.swift */; };
+		9295C9681B255E2400C388EB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C9671B255E2400C388EB /* MasterViewController.swift */; };
+		9295C96A1B255E2400C388EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C9691B255E2400C388EB /* DetailViewController.swift */; };
+		9295C96D1B255E2400C388EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295C96B1B255E2400C388EB /* Main.storyboard */; };
+		9295C96F1B255E2400C388EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295C96E1B255E2400C388EB /* Images.xcassets */; };
+		9295C9721B255E2400C388EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9295C9701B255E2400C388EB /* LaunchScreen.xib */; };
+		9295C97E1B255E2400C388EB /* CalabashOnDeviceExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C97D1B255E2400C388EB /* CalabashOnDeviceExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9295C9781B255E2400C388EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9295C9581B255E2400C388EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9295C95F1B255E2400C388EB;
+			remoteInfo = CalabashOnDeviceExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9295C9601B255E2400C388EB /* CalabashOnDeviceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashOnDeviceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C9641B255E2400C388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295C9651B255E2400C388EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9295C9671B255E2400C388EB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9295C9691B255E2400C388EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9295C96C1B255E2400C388EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9295C96E1B255E2400C388EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9295C9711B255E2400C388EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9295C9771B255E2400C388EB /* CalabashOnDeviceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashOnDeviceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C97C1B255E2400C388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295C97D1B255E2400C388EB /* CalabashOnDeviceExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalabashOnDeviceExampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9295C95D1B255E2400C388EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C9741B255E2400C388EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9295C9571B255E2400C388EB = {
+			isa = PBXGroup;
+			children = (
+				9295C9621B255E2400C388EB /* CalabashOnDeviceExample */,
+				9295C97A1B255E2400C388EB /* CalabashOnDeviceExampleTests */,
+				9295C9611B255E2400C388EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9295C9611B255E2400C388EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9295C9601B255E2400C388EB /* CalabashOnDeviceExample.app */,
+				9295C9771B255E2400C388EB /* CalabashOnDeviceExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9295C9621B255E2400C388EB /* CalabashOnDeviceExample */ = {
+			isa = PBXGroup;
+			children = (
+				9295C9651B255E2400C388EB /* AppDelegate.swift */,
+				9295C9671B255E2400C388EB /* MasterViewController.swift */,
+				9295C9691B255E2400C388EB /* DetailViewController.swift */,
+				9295C96B1B255E2400C388EB /* Main.storyboard */,
+				9295C96E1B255E2400C388EB /* Images.xcassets */,
+				9295C9701B255E2400C388EB /* LaunchScreen.xib */,
+				9295C9631B255E2400C388EB /* Supporting Files */,
+			);
+			path = CalabashOnDeviceExample;
+			sourceTree = "<group>";
+		};
+		9295C9631B255E2400C388EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9295C9641B255E2400C388EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9295C97A1B255E2400C388EB /* CalabashOnDeviceExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9295C97D1B255E2400C388EB /* CalabashOnDeviceExampleTests.swift */,
+				9295C97B1B255E2400C388EB /* Supporting Files */,
+			);
+			path = CalabashOnDeviceExampleTests;
+			sourceTree = "<group>";
+		};
+		9295C97B1B255E2400C388EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9295C97C1B255E2400C388EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9295C95F1B255E2400C388EB /* CalabashOnDeviceExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295C9811B255E2400C388EB /* Build configuration list for PBXNativeTarget "CalabashOnDeviceExample" */;
+			buildPhases = (
+				9295C95C1B255E2400C388EB /* Sources */,
+				9295C95D1B255E2400C388EB /* Frameworks */,
+				9295C95E1B255E2400C388EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalabashOnDeviceExample;
+			productName = CalabashOnDeviceExample;
+			productReference = 9295C9601B255E2400C388EB /* CalabashOnDeviceExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9295C9761B255E2400C388EB /* CalabashOnDeviceExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295C9841B255E2400C388EB /* Build configuration list for PBXNativeTarget "CalabashOnDeviceExampleTests" */;
+			buildPhases = (
+				9295C9731B255E2400C388EB /* Sources */,
+				9295C9741B255E2400C388EB /* Frameworks */,
+				9295C9751B255E2400C388EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9295C9791B255E2400C388EB /* PBXTargetDependency */,
+			);
+			name = CalabashOnDeviceExampleTests;
+			productName = CalabashOnDeviceExampleTests;
+			productReference = 9295C9771B255E2400C388EB /* CalabashOnDeviceExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9295C9581B255E2400C388EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.cybertk;
+				TargetAttributes = {
+					9295C95F1B255E2400C388EB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9295C9761B255E2400C388EB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9295C95F1B255E2400C388EB;
+					};
+				};
+			};
+			buildConfigurationList = 9295C95B1B255E2400C388EB /* Build configuration list for PBXProject "CalabashOnDeviceExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9295C9571B255E2400C388EB;
+			productRefGroup = 9295C9611B255E2400C388EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9295C95F1B255E2400C388EB /* CalabashOnDeviceExample */,
+				9295C9761B255E2400C388EB /* CalabashOnDeviceExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9295C95E1B255E2400C388EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295C96D1B255E2400C388EB /* Main.storyboard in Resources */,
+				9295C9721B255E2400C388EB /* LaunchScreen.xib in Resources */,
+				9295C96F1B255E2400C388EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C9751B255E2400C388EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9295C95C1B255E2400C388EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295C96A1B255E2400C388EB /* DetailViewController.swift in Sources */,
+				9295C9681B255E2400C388EB /* MasterViewController.swift in Sources */,
+				9295C9661B255E2400C388EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C9731B255E2400C388EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295C97E1B255E2400C388EB /* CalabashOnDeviceExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9295C9791B255E2400C388EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9295C95F1B255E2400C388EB /* CalabashOnDeviceExample */;
+			targetProxy = 9295C9781B255E2400C388EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9295C96B1B255E2400C388EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295C96C1B255E2400C388EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9295C9701B255E2400C388EB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295C9711B255E2400C388EB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9295C97F1B255E2400C388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9295C9801B255E2400C388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9295C9821B255E2400C388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalabashOnDeviceExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9295C9831B255E2400C388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalabashOnDeviceExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9295C9851B255E2400C388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalabashOnDeviceExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashOnDeviceExample.app/CalabashOnDeviceExample";
+			};
+			name = Debug;
+		};
+		9295C9861B255E2400C388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalabashOnDeviceExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashOnDeviceExample.app/CalabashOnDeviceExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9295C95B1B255E2400C388EB /* Build configuration list for PBXProject "CalabashOnDeviceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295C97F1B255E2400C388EB /* Debug */,
+				9295C9801B255E2400C388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9295C9811B255E2400C388EB /* Build configuration list for PBXNativeTarget "CalabashOnDeviceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295C9821B255E2400C388EB /* Debug */,
+				9295C9831B255E2400C388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9295C9841B255E2400C388EB /* Build configuration list for PBXNativeTarget "CalabashOnDeviceExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295C9851B255E2400C388EB /* Debug */,
+				9295C9861B255E2400C388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9295C9581B255E2400C388EB /* Project object */;
+}
