@@ -4,7 +4,7 @@ bootstrap:
 	bundle exec calabash-ios run
 
 build:
-	xcodebuild build -xcconfig "Calabash/cal.xcconfig" -configuration "Debug" -sdk "iphoneos" DSTROOT="Calabash/build" WRAPPER_NAME="Calabash.app"
+	xcodebuild build -xcconfig "Calabash/cal.xcconfig" -configuration "Debug" -sdk "iphoneos" DSTROOT="Calabash/build" WRAPPER_NAME="Calabash.app" | bundle exec xcpretty -c
 	#ipa build  --xcconfig Calabash/cal.xcconfig -c "Debug" 
 
 install:

@@ -54,9 +54,11 @@ GEM
       cucumber
     thor (0.19.1)
     tilt (2.0.1)
+    xcpretty (0.1.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   calabash-cucumber (~> 0.14)
+  xcpretty (~> 0.1)
